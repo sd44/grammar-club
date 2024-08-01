@@ -10,7 +10,7 @@
 
 
 \LoadClass[UTF8, fontset = noto, a4paper, twoside, zihao =
-5, scheme=chinese, heading = true]{ctexbook}
+-4, scheme=chinese, heading = true]{ctexbook}
 
 \ctexset{%
   abstractname = {摘\quad 要},  % book类没有摘要
@@ -127,11 +127,11 @@ footnoteleadingratio = 1.6]{zhlineskip}
   a4paper,
   heightrounded,
   includemp = false, % includes the margin notes, \marginparwidth and \marginparsep, into body when calculating horizontal calculation.
-  inner = 3.5cm,
-  outer = 3cm,
+  inner = 2.7cm,
+  outer = 2.2cm,
   % marginparwidth = 80pt,
-  top = 3cm,
-  bottom = 3cm,
+  top = 2.5cm,
+  bottom = 2.5cm,
   headheight = 6mm,
   headsep = 10mm,
   footskip = 10mm,
