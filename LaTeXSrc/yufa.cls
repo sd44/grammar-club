@@ -465,3 +465,45 @@ footnoteleadingratio = 1.6]{zhlineskip}
 \newpage
 \endgroup
 }
+
+
+\RequirePackage{longtable}
+
+\newcommand\dunderline[3][-1pt]{{%
+    \sbox0{#3}%
+    \ooalign{\copy0\cr\rule[\dimexpr#1-#2\relax]{\wd0}{#2}}}}
+
+\RequirePackage{booktabs}
+
+\RequirePackage{tasks}%选择题宏包，tasks环境
+\settasks{
+  label=(\Alph*) ,
+  label-align=left,
+  label-width = 1.7em,
+  column-sep={2pt},
+  item-indent={5em},
+  before-skip={-0.3em},
+  after-skip={0em},
+  % after-item-skip = 1ex plus 1ex minus 1ex %  default skip
+  after-item-skip = 0ex plus 1pt minus 1pt
+}
+\setlength{\tabcolsep}{8pt}
+
+\RequirePackage{xeCJKfntef}
+
+\newcommand\unct[2]{\def\arraystretch{0.8}
+  {\setlength{\tabcolsep}{0pt}
+    \begin{tabular}[t]{@{}c@{}} \setlength\arrayrulewidth{0.8pt} \textbf{#1}\\\hline \textbf{\small #2} \\\end{tabular}}}
+
+\newcommand\unnormal[2]{\def\arraystretch{0.8}
+  {\setlength{\tabcolsep}{0pt}
+    \begin{tabular}[t]{@{}c@{}} \setlength\arrayrulewidth{0.8pt} #1\\\hline \small #2 \\\end{tabular}}}
+
+% \newcommand\unbf[1]{\dunderline[-4pt]{0.8pt}{\textbf{#1}}}
+\newcommand\unbf[1]{\CJKunderline[thickness=0.8pt, textformat=\bfseries]{#1}}
+
+\RequirePackage{soul}
+\renewcommand{\ULthickness}{0.8pt}
+\newcommand\ttu{ \_\_\ }
+
+\def\reitem{\refstepcounter{enumi}\item[\Rightarrow]}

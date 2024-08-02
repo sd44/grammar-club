@@ -6,20 +6,6 @@
 
 词法 包括 语音和文字拼法 语音单位 如音标。
 
-语法 包括
-+ 句法（SYNTAX) :: 如陈述句变疑问句
-+ 词法（MORPHOLOGY，词语的内部结构) :: 论述单词的曲折变化（INFLECTIONS，也称 词态变化 ACCIDENCE）
-
-对于英语来说并不存在语法学家编纂的学院式语法，更多是惯用法（USAGE），属于社
-会语言学范畴。
-
-分句 短语 词 词素 clause phrase word morpheme
-
-只有一个分句构成的句子成为简单句 simple sentences，两个或以上分句构成复句
-complex 或 compound sentences。
-
-从属 subordinate 分句通常由一个从属连词(conjunction）引导，如 since。而且事
-实上也被称为状语从句（adverbial clause）。
 
 包孕使得语法单位可能具有无限长度。
 

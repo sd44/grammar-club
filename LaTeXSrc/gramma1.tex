@@ -1,135 +1,3 @@
-\documentclass{yufa}
-\usepackage{longtable}
-
-\newcommand\dunderline[3][-1pt]{{%
-    \sbox0{#3}%
-    \ooalign{\copy0\cr\rule[\dimexpr#1-#2\relax]{\wd0}{#2}}}}
-
-\usepackage{booktabs}
-
-\usepackage{tasks}%选择题宏包，tasks环境
-\settasks{
-  label=(\Alph*) ,
-  label-align=left,
-  label-width = 1.7em,
-  column-sep={2pt},
-  item-indent={5em},
-  before-skip={-0.3em},
-  after-skip={0em},
-  % after-item-skip = 1ex plus 1ex minus 1ex %  default skip
-  after-item-skip = 0ex plus 1pt minus 1pt
-}
-\setlength{\tabcolsep}{8pt}
-
-\usepackage{xeCJKfntef}
-
-\newcommand\unct[2]{\def\arraystretch{0.8}
-  {\setlength{\tabcolsep}{0pt}
-    \begin{tabular}[t]{@{}c@{}} \setlength\arrayrulewidth{0.8pt} \textbf{#1}\\\hline \textbf{\small #2} \\\end{tabular}}}
-
-\newcommand\unnormal[2]{\def\arraystretch{0.8}
-  {\setlength{\tabcolsep}{0pt}
-    \begin{tabular}[t]{@{}c@{}} \setlength\arrayrulewidth{0.8pt} #1\\\hline \small #2 \\\end{tabular}}}
-
-% \newcommand\unbf[1]{\dunderline[-4pt]{0.8pt}{\textbf{#1}}}
-\newcommand\unbf[1]{\CJKunderline[thickness=0.8pt, textformat=\bfseries]{#1}}
-
-\usepackage{soul}
-\renewcommand{\ULthickness}{0.8pt}
-\newcommand\ttu{ \_\_\ }
-
-\def\reitem{\refstepcounter{enumi}\item[\Rightarrow]}
-
-\title{语法俱乐部}
-\author{旋元佑}
-\authorurl{https://llwslc.github.io/grammar-club/}
-\date{2024年7月}
-
-\begin{document}
-
-\special{pdf:minorversion 7}
-
-\frontmatter
-\maketitle
-
-%% 目录
-\tableofcontents
-
-\chapter{序——我学英语的经验}
-
-我是进了初中才开始接触到英语。初一的班导师是英语老师，他叫我们要\textbf{勤查字典}，我
-也就乖乖地\textbf{查了三年字典，背了些单词}，也生吞活剥地记了些语法规则。在那种年纪，
-记忆力好，理解力差，也不会想去把语法弄懂，背下来就算了！
-
-\section*{启蒙的老师及语法书}
-
-高中读的是新竹中学，高一的班导师也是英语老师，他要我们开始使用\textbf{英英字典}，于
-是我就查了三年英英字典。这在高中阶段我觉得是不错的训练，可以避免在两种完全不
-同语系的单词间硬套，同时也可以训练阅读，以及培养用英语思考的习惯。
-
-\textbf{一本好的语法书}，对学英语的人有多么大的帮助！汤老师那套语法书就是这样的好书。
-只不过完全用英语写成，要自习不大容易。此后我再也没有看过一本够好的语法书。
-
-大学我念的是师大英语系，大一班导师当然也是英语老师。他要我们\textbf{丢开字典、大量阅
-  读，要有一个晚上看完一本小说的能力。}
-
-\section*{大学教育}
-
-我不管老师上课时怎么跳，晚上\textbf{一定把书本逐字逐句看完}。当然有看不懂的，也有不
-认识的字。不过我是以“看完”为目的，不懂也就算了。除了课本，另有一些重要的典
-籍与作品，像圣经、希腊罗马神话与经典小说等等，我都到图书馆去借来看。好在这些
-东西都是经过时间试炼的名作，不必勉强自己，看下去自然会欲罢不能。看这些东西，
-感官刺激虽不如看电影，可是它比电影多一层\textbf{想象的空间，韵味无穷}，是电影无法企
-及的。就这样，我轻松愉快地念完了大学…… “不求甚解”式读书方法。
-
-\section*{一个晚上看一本小说}
-
-大概一个晚上要看一本。这一段时间的\textbf{密集阅读}对我的英语能力有“很大”的帮助。
-小说是最优美丰富的文字，戏剧用的是口语（不过19世纪的口语和现在颇不相同），诗
-歌是最浓缩的语言，散文比较平易近人，文学批评则是非常学术化的文体。这些东西看
-了一堆下来，大概各式各样的英语都可以应付了。
-
-研究所毕业后，在元培医专、新竹科学园区实验中学教了一阵子的书，又回到台北，进
-入淡江英语系任教，并就近去读淡江的美国研究所博士班。在美研所所学，与其说对英
-语有什么帮助，不如说是\textbf{进一步了解了美国的社会、政治、文化背景}。话说回来，要真
-正懂一门语言，不了解那个国家和人民的话是办不到的，这一方面也就是我读美研所的
-收获。
-
-\section*{享受阅读乐趣的第一步——不求甚解}
-
-教学的经验给我的帮助也很大。在从前教托福、GRE、GMAT这些留学英语测验时，开始接
-触到词源分析，了解到英语单词的构成，也体会到\textbf{词源分析}是学习单词效果宏大的工具。
-
-同时，为了教学所需，我以在师大学的教材教法为基础，再去阅读新的 ESL/EFL教学理
-论，发现我误打误撞的那套“\textbf{不求甚解}”式阅读，竟然就是五种教学法之中最适合国内
-学习者需求的\textbf{“阅读法”（the Reading Approach）}。这种方法不需要外在有英语环境，
-只要找来适合自己程度的英语文章，由浅入深阅读下去，常见的英语单词与常用的语法
-句型自然会大量出现，从上下文中就可以学会新的单词与用法，不需借助词典。
-
-读到一个程度，累积了足够的 input，就会有 output出来——可以拿起笔来\textbf{写}了。
-
-\section*{TIME 的挑战}
-
-我学英语的经验，还有一个挑战要提——TIME 。从前我只是偶尔看一下 TIME，1980 年
-代我开始在补习班讲授 TIME。这时候不是看看就算了，而是要\textbf{完全弄懂}才能去教。
-
-\section*{懒人英语学习法}
-
-英语只是个工具，但是这个工具的学习可以说是永无止境。现代英语教学法中的the
-General Approach主张学习者应认清自己的学习风格，该怎么学应因人而异，
-要\textbf{选择最适合自己学习风格的方法}。我学习英语的经验也许不是每个人都适合，
-不过我觉得，好逸恶劳是大部分人的通病。如果你曾痛下决心把英语学好，却半途而废，
-不能持之以恒，那么我这套懒人的方法可能也适合你。只要找你\textbf{爱看的书}来，
-不必查字典，不求甚解，知道大概在说什么，能维持你阅读的兴趣就好了。或者
-找\textbf{简单点的东西}来看，或者找《TIME 中文解读版》这类有\textbf{深度、优
-  美}的文字来看，利用\textbf{翻译、注解}等等来了解文章在说什么就够了。这样你
-自然能持续阅读下去，在不知不觉中吸收有意义的input 。只是茶余饭后看看闲书，没
-有丝毫勉强，假以时日你的英语就会进步。
-
-
-%%% 正文部分
-\mainmatter
-
 \part{初级句型——简单句}
 
 \chapter{基本句型及补语}
@@ -139,9 +7,9 @@ General Approach主张学习者应认清自己的学习风格，该怎么学应�
 \begin{longtable}[]{@{}llll@{}}
   1. & S+V & 主语 + 动词 & \\
   2. & S+V+O & 主语 + 动词 + 宾语 & S：主语 Subject \\
-  3. & S+V+C & 主语 + 动词 + 补语 & V：动词 Verb \\
-  4. & S+V+O+O & 主语 + 动词 + 宾语 + 宾语 & O：宾语 Object \\
-  5. & S+V+O+C & 主语 + 动词 + 宾语 + 补语 & C：补语 Complement
+  3. & S+V+C & 主语 + 动词 + （主语）补语 & V：动词 Verb \\
+  4. & S+V+O+O & 主语 + 动词 + （间接）宾语 + （直接）宾语 & O：宾语 Object \\
+  5. & S+V+O+C & 主语 + 动词 + 宾语 + （宾语）补语 & C：补语 Complement
 \end{longtable}
 
 虽然从初中开始就教五种基本句型，可是其中有两种（句型 3 和 句型5）关
@@ -378,8 +246,16 @@ is the question 开始的，相信读者都看过。可是 To be or not to be要
 \end{itemize}
 
 请想一想 gave这个动词。要做“给”的动作，首先要有个东西：在上例中就是那只狗。
-然后，还得有人接受，才能给得出去：在上例中就是him。这两个宾语，一个是给的对象，
-一个是给的东西，两个都是名词，可是并不相等。这个句型要和另一种四个元素的句
+然后，还得有人接受，才能给得出去：在上例中就是him。这两个宾语，一个是给的对象
+（间接宾语），一个是给的东西（直接宾语，两个都是名词，可是并不相等。
+
+可接双宾语的双及物动词还有wish, left, send等。
+\begin{itemize}
+\item We all wish \unct{you}{O} \unct{a happy birthday}{O}.
+\end{itemize}
+
+
+这个句型要和另一种四个元素的句
 型\textbf{S+V+O+C}区分清楚，后者的宾语与补语也可以都是名词，可是\textbf{宾语与补语间存在
   有“等于是”的关系}。例如：
 \begin{itemize}
@@ -391,6 +267,19 @@ is the question 开始的，相信读者都看过。可是 To be or not to be要
 因为有“他是狗”的意思在，所以 a dog 是 him 的补语。如果是 John's father
 gave him a dog 这一句，him 是给的对象，a dog是给的东西，两者并不相等，所以并
 不是宾语与补语的关系，两个都是宾语。
+
+\section{状语}
+
+暂不多讨论状语 Adverbial，其位置多在分句句末，但也可在句首及句中，比较灵活，
+可看以下语句先行了解。
+
+\begin{itemize}
+\item \unct{My mother}{S} \unct{usually}{A} \unct{enjoys}{V} \unct{parties}{O}
+  \unct{very much}{A}。
+\item \unct{I}{S} \unct{have been}{V} \unct{in the garden}{A} \unct{all the
+    time}{A} \unct{since lunch}{A}.
+\end{itemize}
+
 
 本章谈的是比较根本的句型问题。虽然简单，却是了解英语语法必要的基础。读者在阅
 读英语时不妨详加分析句型，触类旁通，相信会更有收获。
@@ -1683,8 +1572,9 @@ right也是推测，不是事实叙述。这种不确定语气是不定词与助
   must & have to \\
   should & ought to \\
   will/would & be going to \\
+             & be about to \\
   can/could & be able to \\
-  may/might & be likely to \\
+  may/might & be likely/allowed  to \\
   \bottomrule
   \caption{\label{tab:modalinf}语气助动词可改写为不定词}
 \end{longtable}
@@ -6446,19 +6336,13 @@ question）。例如：
 
 \item (C) 先从这句来了解：Babylon is the place that is now Bagdad.
 
-巴比伦就是今
-  天叫做巴格达的地方。）that 从句是形容词从句，如果要省略掉 that 的先行
-  词 the place，就得把 that 换成另一个关系词 what，即成为 C 的答案。
+  巴比伦就是今天叫做巴格达的地方。）that 从句是形容词从句，如果要省略掉 that
+  的先行词 the place，就得把 that 换成另一个关系词 what，即成为 C 的答案。
 
 \end{enumerate}
 
-\input{gramma2.tex}
-
-\backmatter
-
-\end{document}
 
 %%% Local Variables:
 %%% mode: latex
-%%% TeX-master: t
+%%% TeX-master: "main"
 %%% End:
