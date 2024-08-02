@@ -1,0 +1,228 @@
+:PROPERTIES:
+:ID:       49fa751f-39e7-4e95-b68c-701d9d54bda4
+:END:
+
+第一语言 第二语言 外语
+
+词法 包括 语音和文字拼法 语音单位 如音标。
+
+语法 包括 句法（SYNTAX) 如陈述句变疑问句 和 论述曲折变化（INFLECTIONS，也称
+词态变化 ACCIDENCE）这一部份的词法（MORPHOLOGY，词语的内部结构）
+
+对于英语来说并不存在语法学家编纂的学院式语法，更多是惯用法（USAGE），属于社
+会语言学范畴。
+
+分句 短语 词 词素 clause phrase word morpheme
+
+只有一个分句构成的句子成为简单句 simple sentences，两个或以上分句构成复句
+complex 或 compound sentences。
+
+从属 subordinate 分句通常由一个从属连词(conjunction）引导，如 since。而且事
+实上也被称为状语从句（adverbial clause）。
+
+包孕使得语法单位可能具有无限长度。
+
+变换位置（灵活性 mobility） 省略（随意性 optionality）
+
+副词短语的另一种情况是它可以由其他类别的构成成分来代替。如 just recently 可
+被 名词短语 this month 或 介词短语 during the past week 代替。但副词短语或介
+词短语并不能完全替代名词短语。
+
+形式 form 如名词短语或动词短语的内部结构
+
+功能 function 如作分句的主语或宾语。如上所述 just rencently, this month 等属
+于同一功能类别状语。
+
+Verb 既是分句成分的名称 谓语，也是 词类名称 动词。
+
+
+#+DOWNLOADED: screenshot @ 2021-08-09 11:09:24
+#+attr_org: :width 482px
+[[file:../orgimg/2021-08-09_11-09-24_screenshot.png]]
+
+
+英语的分句成份排列有较严格限制，但越接近外缘成分，位置的灵活性就越大，主谓宾补越来越具灵活性。
+
+修饰或限定形容词、动词、副词或词组，表示地点、时间、环境、方式、原因、程度等
+之间的关系(如:gently, usually, quite, then, there, often)。
+
+外加状语（conjucts）
+
+sentence adverb 句子状语，用来表达作者或说话者对之后句子内容的态度(如
+frankly, obviously, to my regret)，或将句子置于特定的上下文中(如
+technically, politically)。包括外加状语 disjuncts，如 To my regret, he
+refused the offer of help. 还有联加状语 conjuncts，如 He was, however, very
+interested in my other proposals.
+
+句子状语具有外源性标记。在口语中，有语调界限；在书面语中，由逗号把它们与其他部份分割开来。
+
+sentence adverb 与 附加状语 adjuncts 和 下加状语 subjuncts 不同。adjuncts 和 subadjuncts 与分句的其他部分结合得更加紧密。
+
+不及物动词 intransitive verbs，如 Someone is laughing，后面不接宾语。
+
+及物动词 transitive verbs，如 I gave him a toy，接宾语。可分为 单宾语动词 monotransitive verb（SVO 句型），双宾语动词 ditransitive verb（SVOO 句型） 和 复杂及物动词 complex transitive verb（出现在 SVOC 和 SVOA 句型中）。
+
+连系动词 copular verbs，接主语补语或状语，包括 be, become, like, appear 等，如 He is tall.
+
+补语可以是形容词短语，也可以是名词短语。
+
+有些 space adjuncts 空间附加补语 不可缺少。如 He stayed in bed。
+
+I considered her beautiful.
+I considered her to be beautiful.
+I considered that she was beautiful.
+
+一些 SVOO 句型中的间接宾语，可以用放在直接宾语后的介词短语来替代，从而转换成 SVOA 句型。
+如：
+She sent Jim a card~ She sent a card to Jim.
+She left Jim a card~ She left a card for him.
+
+to 和 for 表示受事（参见 9.46），是常用的两个介词。with 和 of 等也偶有所见。
+
+然而有些带 to 和 for 表示受事的短语却不能变成间接宾语：
+He suggested the idea to Bill; She described her home to us.
+
+有种分析方法，认为上面 to 和 her 的短语称为 介词宾语，而且认为介词宾语在语法上与间接宾语等值。
+
+特殊情况下，副词短语和介词短语可以作主语。介词短语还可以作为补语。
+
+
+#+DOWNLOADED: screenshot @ 2021-08-09 11:07:33
+#+attr_org: :width 482px
+[[file:../orgimg/2021-08-09_11-07-33_screenshot.png]]
+
+
+有充足理由要把作为功能名称的“助动词”和“主要动词”，与作为词类名称的“助动词”和“主要动词”区分开来。动词分为三类，情态（modal）动词 ，如 may, might, will, would, can, could, shall, should, must 等，始终作为助动词。全义（full）动词 give, try, work 等总是作为主要动词。基本（primary）动词，be, have, do 等，既能作为助动词又能作为主要动词。
+
+限定语，有定的 the，不定的 a an，部份 some ，整体 all。专有名词和人称代词天生就是有定的，它们本身就包含着自己的限定词。
+
+名词自然具有“静态的” stative 特征，动词则更具“动态的” dynamic 特征。因而，
+形容名词的形容词在表达静态的意义上与名词有联系，一些形容词不能与进行体连用；
+以表示“暂时性” temporary。如：John is tall 可以. 但 john is being tall 不
+可以。
+
+副词则倾向于动态性，如：John works hard. 和 John is working hard 均可。
+
+动词的 分词 partiple 这个名称，也反映了这一形式既带有动词特征，又带有形容词特征。
+
+代名词字面意义是代替名词，但有两点名不副实。首先，代名词往往代替的不是名词，
+而是名词短语；其次，代名词和他的先行词之间常常存在非简单替代关系，如：
+
+Many students did better than many students expected.和 … than they expected。
+
+wh-词，如 what, which, who 和 when，也是跨越了标准词类界限，可被认为是一组特殊的，需要被完全说清楚的代用词。这与它们所属的此类无关。who, whom 和 what 的句法功能是代名词，而 when 则是时间副词和连词。
+
+wh-词的一个共同特征是位于分句句首，不论它们的作用是 疑问词、关系词还是从属连词。
+
+将陈述句转换为疑问句、否定句时，第一助动词（功能词）起着一种“转换”功能。
+没有助动词的肯定陈述句，在转换为疑问句和否定句时，就要引入 “假位” 助动词，如相应的助动词 do、be 和 have，它体现着数、人称和时代的差别。否定句还要加入 not。
+
+
+非肯定形式 nonnassertive forms，如 any anybody anywhere ever yet 等。
+肯定形式 assertive forms，如 some somebody somewhere already 等。
+否定形式，如 no nobody nothing never few rarely 等。
+
+命令句，也即祈使句，没有主语，仅以一个带命令语气动词原型的谓体构成。
+Be quiet. Search the room carefully. Don't hurry!
+
+感叹句以一个 wh-词开头，一般保留正常的陈述句主语+谓语的语序。但否定式感叹句很少用，只能作一种特殊的或幽默的解释。
+What  beautiful clothes she wears。
+How well Philip plays the piano.
+
+How well Philip doesn't play the piano!（意思接近“菲利普样子多可爱啊，他不像其他人一样会弹钢琴。”）
+
+语法结构的变化与着重点有关，尤其是缩略语和信息中心。
+
+分裂句 cleft sentence 就是一种与信息中心类似并有联系的语法手段：分裂句被分成两个主要部分：一个位于句首的中心成分和一个随后的类似关系从句的“背景” backgroud 结构。
+- Julie buys her vegetables in the market.
+- It's Julie that/who buys her vegetables in the market.
+- It's her vegetables that jullie buys in the market.
+- It's in the market that Julie buys her vegetables.
+
+前置 fronting 即把一个成分，如宾语或状语，放到句首(18.20)。
+与此相反的，就是把通常不在句末的成分后移到句末。此成分被赋予一种不同性质。
+
+- What you say doesn't matter.
+It doesn't matter what you say.
+
+上句中的 it 只是表示主语的内容将在本剧后面部分说出来。
+
+语法在某种程度上是一个模糊体系，例如在类别和结构之间没有明确的界限。
+
+递差 gradience 就是两个类别（如两种词类）之间在异同程度方面的一个极差。极差两端是明确属于两个不同类别的项目，但中间位置上则是一些中间项目——程度不等地不能满足一类或另一类标准的项目。
+
+多种分析，不同分析方法得出不同结论。
+
+They /don't approve/ of noisy parties. 把介词短语看作状语。
+They /don't approve of/ noisy parties. 把 noisy party 当作 approve of 多语动词的宾语。
+
+** 第三章 动词和助动词
+
+动词的 -s 形式（一般现在时）和过去式是 限定性的 finite，-ing 和 -ed 分词（进行时和被动式）是 非限定性的 nonfinite。原型是无曲折变化的形式，有时是限定性的，有时是非限定性的。
+
+在限定性动词短语中，只有谓语动词中的第一个词是限定性的。
+She calls him every day.  She *is calling him* now. She *has called* twice today.
+
+但是，在非限定性动词短语中，所有的动词都是非限定性的。
+*Having been called* early, he felt sleepy all day.
+
+命令祈使句和现在时的虚拟语气句中，使用动词原形。
+Call at once.
+They demanded that she *call and see* them.
+The UN has demanded that all troops *be* withdrawn.
+
+*** 动词的第三人称单数及名词复数 -s 形式：
+1. 以清、浊咝声结尾的原型的-s 形式，结尾应是 es，读作 /ɪz/，如以/s z ʧ ʤ/等音。
+2. 以清辅音结尾的原型后读作/s/，如/p t k f/等音。
+3. 除咝声外，以浊音（包括元音）结尾的原型后，读作 /z/。
+4. go ~ goes, echo ~ echoes
+5. 以 辅音 + -y 结尾的原形， 把 -y 变成 -i，后加 es : try ~ tries，carry ~ carries。
+
+*** 过去式和过去分词
+规则动词的过去式和过去分词，有三种读法：
+a. 在以 /t/ 和 /d/ 结尾的原型后面读作 /ɪd/。 padded patted
+b. 在以浊音（包括元音）结尾的原形后面读作 /d/。buzzed towed called
+c. 除 /t/ 外，在以清音结尾的原形后面读作 /t/。passed packed
+d. 以 辅音 + -y 结尾的原形， 把 -y 变成 -i，后加 ed: try ~ tried，carry ~ carried。
+
+*** 现在分词和过去分词之前辅音字母的双拼：
+如果动词原形以单个辅音字母结尾，之前只有一个发元音的字母并且重读，那么它的现在分词和过去分词形式中要加双拼。
+bar~barring~barred beg~begging~begged permit~permitting~permitted patrol~patrolling~patrolled
+
+*** c+k
+在以元音+c 结尾的动词原形中，其现在分词和过去分词形式要加 k。如 panic~panicking~panicked   traffic~trafficking~traficked。
+
+*** 删去 -e 和增加 -e
+
+如果原形以不发音的 -e 结尾，他的过去和现在分词形式，总是先删去 -e。 create~creating~created type~typing~typed
+其他不规则情况省略。
+
+** 有助动词功能的动词
+
+- 基本动词 :: be、do、have
+- 情态动词 :: can, may, will, shall, could, might, would, should, must. 情
+   态动词只能做助动词，一般把他们称为 情态（表示意愿、可能性和义务等）助动词
+   MODAL AUXILIARIES。
+
+*** 强语势肯定式
+
+作功能词的助动词，可带有核心重音，以表示限定性分句是肯定的而非否定的。
+
+- Won't you try again? Yes, I will try again.
+- You must speak to your teatcher. I have spoken to her.
+- You did speak to her?(I thought you didn't)
+- You should listen to your mother. But  I do listen to her.
+- I do(重音） wish you listen.
+
+*** 功能词 + TOO/EITHER
+- 肯定式 :: Ann will stay late and Bill will too.
+- 否定式 :: Bill didn't break his promise, and Henry didn't either.
+
+*** 谓体提前
+
+- Ann said（上声） she would be late, and late she was（重音）。
+- Bill said（上声） he would win the match, and win the match he did（重音）。
+
+*** 关系分句的谓体（RELATIVIZED PREDICATION）
+- Ann said she would be late, which she was.
+- Bill said he would win the match, which he did.
