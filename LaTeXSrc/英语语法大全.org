@@ -213,3 +213,42 @@ bar~barring~barred beg~begging~begged permit~permitting~permitted patrol~patroll
 *** 关系分句的谓体（RELATIVIZED PREDICATION）
 - Ann said she would be late, which she was.
 - Bill said he would win the match, which he did.
+
+#+BEGIN_SRC dot :file ./test.pdf :cmdline -Kdot -Tpdf
+  digraph test{
+    // newrank=true;
+
+    rankdir=TB;
+    node [shape=record];
+
+
+    a [label="主语"];
+    b [label="谓语"];
+    c [label="宾语"];
+    d [label="补语"];
+    e [label="状语"];
+    {rank = same;  a,b,c,d,e}
+
+    a->b->c->d->e[style=invis]
+
+
+    node [shape=ellipse];
+    f [label="动词"];
+    g [label="名词"];
+    h [label="形容词"];
+    i [label="副词"];
+    j [label="介词"];
+    {rank = same; f,g,h,i,j}
+
+    a->g
+    a->{i j}[style=dashed]
+    b->f
+    c->g
+    d->{g h}
+    d->j[style=dashed]
+    e->{i j}
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./test.pdf]]

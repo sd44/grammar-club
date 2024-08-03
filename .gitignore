@@ -4,7 +4,6 @@
 *.ins
 *.log
 *.out
-*.pdf
 *.gz
 *.toc
 *.sty
