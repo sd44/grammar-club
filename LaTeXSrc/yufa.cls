@@ -94,7 +94,7 @@ footnoteleadingratio = 1.6]{zhlineskip}
 \RequirePackage{caption}
 \DeclareCaptionLabelSeparator{zhspace}{：}
 \captionsetup{labelfont=bf, labelsep = zhspace, format = hang, figureposition=bottom, tableposition=top}
-\newcommand{\capsource}[1]{ \vspace{-8pt} \caption*{\mdseries \footnotesize {#1}} } % 自定义图表来源
+\newcommand{\capsource}[1]{ \vspace{-8pt} \caption*{\mdseries \small {#1}} } % 自定义图表来源
 % 命令，vspace可酌情调整。
 
 \RequirePackage{etoolbox}
@@ -507,3 +507,6 @@ footnoteleadingratio = 1.6]{zhlineskip}
 \newcommand\ttu{ \_\_\ }
 
 \def\reitem{\refstepcounter{enumi}\item[\Rightarrow]}
+
+\RequirePackage{tabularray}
+\UseTblrLibrary{booktabs}

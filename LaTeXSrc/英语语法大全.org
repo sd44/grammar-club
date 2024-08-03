@@ -74,12 +74,7 @@ He suggested the idea to Bill; She described her home to us.
 特殊情况下，副词短语和介词短语可以作主语。介词短语还可以作为补语。
 
 
-#+DOWNLOADED: screenshot @ 2021-08-09 11:07:33
-#+attr_org: :width 482px
-[[file:../orgimg/2021-08-09_11-07-33_screenshot.png]]
 
-
-有充足理由要把作为功能名称的“助动词”和“主要动词”，与作为词类名称的“助动词”和“主要动词”区分开来。动词分为三类，情态（modal）动词 ，如 may, might, will, would, can, could, shall, should, must 等，始终作为助动词。全义（full）动词 give, try, work 等总是作为主要动词。基本（primary）动词，be, have, do 等，既能作为助动词又能作为主要动词。
 
 限定语，有定的 the，不定的 a an，部份 some ，整体 all。专有名词和人称代词天生就是有定的，它们本身就包含着自己的限定词。
 
@@ -90,7 +85,6 @@ He suggested the idea to Bill; She described her home to us.
 
 副词则倾向于动态性，如：John works hard. 和 John is working hard 均可。
 
-动词的 分词 partiple 这个名称，也反映了这一形式既带有动词特征，又带有形容词特征。
 
 代名词字面意义是代替名词，但有两点名不副实。首先，代名词往往代替的不是名词，
 而是名词短语；其次，代名词和他的先行词之间常常存在非简单替代关系，如：
@@ -186,10 +180,6 @@ bar~barring~barred beg~begging~begged permit~permitting~permitted patrol~patroll
 
 ** 有助动词功能的动词
 
-- 基本动词 :: be、do、have
-- 情态动词 :: can, may, will, shall, could, might, would, should, must. 情
-   态动词只能做助动词，一般把他们称为 情态（表示意愿、可能性和义务等）助动词
-   MODAL AUXILIARIES。
 
 *** 强语势肯定式
 
