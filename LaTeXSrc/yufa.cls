@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{dingjia}[2018/12/08 dingjia book class]
+\ProvidesClass{yufa}[2024/08/04 yufa book class]
 % \RequirePackage[l2tabu, orthodox]{nag} %编译时，给出过时命令和不规范使用警告。
 
 \RequirePackage{kvoptions}
@@ -170,12 +170,16 @@ footnoteleadingratio = 1.6]{zhlineskip}
 }
 
 \RequirePackage[usestackEOL]{stackengine}
-\RequirePackage{multirow, tabularx, diagbox}
+\RequirePackage{multirow, diagbox}
 
 \RequirePackage{bookmark}
 \RequirePackage{booktabs}
 % \RequirePackage{lscape}
 \RequirePackage{float}
+
+\RequirePackage{tabularray}
+\UseTblrLibrary{booktabs}
+\UseTblrLibrary{nameref}
 
 % 双栏排版
 \RequirePackage{multicol}
@@ -252,13 +256,18 @@ footnoteleadingratio = 1.6]{zhlineskip}
 
 
 \setlist{topsep=5pt, partopsep=0pt}
-\setlist[2]{align=right, itemindent=2\parindent} % Only the level 2
 
 \setlist[enumerate]{leftmargin= 0ex, itemindent = 1.2\parindent,
   listparindent = 1.2\parindent, labelindent=1em, labelwidth=1.5em, parsep
   = 0ex, itemsep = 0.5em, align=right, ref=例\arabic* }
 % \setlist[description]{style=nextline, font=\sffamily\bfseries}
 \setlist[description]{font=\sffamily\bfseries}
+
+\setlist[itemize]{leftmargin= 0ex, itemindent = \ccwd, listparindent =
+  1.1\parindent, labelindent=0.5em, labelwidth=1.6em, parsep = 0ex, itemsep =
+  0.5em, align=right, ref=例\arabic* }
+
+% \setlist[2]{itemindent=0pt} % Only the level 2
 
 \RequirePackage{tikz, pgfplots}
 \tikzset{every picture/.style={/utils/exec={\footnotesize}}}
@@ -475,7 +484,10 @@ footnoteleadingratio = 1.6]{zhlineskip}
 
 \RequirePackage{booktabs}
 
+\setlength{\tabcolsep}{8pt}
+
 \RequirePackage{tasks}%选择题宏包，tasks环境
+
 \settasks{
   label=(\Alph*) ,
   label-align=left,
@@ -487,7 +499,9 @@ footnoteleadingratio = 1.6]{zhlineskip}
   % after-item-skip = 1ex plus 1ex minus 1ex %  default skip
   after-item-skip = 0ex plus 1pt minus 1pt
 }
-\setlength{\tabcolsep}{8pt}
+
+\NewTasksEnvironment[style=itemize, label=\labelitemi, label-width=13pt,
+item-indent=14pt, label-offset=0pt, column-sep=5pt]{taskitem}[*]
 
 \RequirePackage{xeCJKfntef}
 
@@ -508,5 +522,4 @@ footnoteleadingratio = 1.6]{zhlineskip}
 
 \def\reitem{\refstepcounter{enumi}\item[\Rightarrow]}
 
-\RequirePackage{tabularray}
-\UseTblrLibrary{booktabs}
+\newcommand\doulos[1]{{ \fontspec{Doulos SIL} #1}}

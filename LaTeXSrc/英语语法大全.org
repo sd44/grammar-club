@@ -152,31 +152,6 @@ Call at once.
 They demanded that she *call and see* them.
 The UN has demanded that all troops *be* withdrawn.
 
-*** 动词的第三人称单数及名词复数 -s 形式：
-1. 以清、浊咝声结尾的原型的-s 形式，结尾应是 es，读作 /ɪz/，如以/s z ʧ ʤ/等音。
-2. 以清辅音结尾的原型后读作/s/，如/p t k f/等音。
-3. 除咝声外，以浊音（包括元音）结尾的原型后，读作 /z/。
-4. go ~ goes, echo ~ echoes
-5. 以 辅音 + -y 结尾的原形， 把 -y 变成 -i，后加 es : try ~ tries，carry ~ carries。
-
-*** 过去式和过去分词
-规则动词的过去式和过去分词，有三种读法：
-a. 在以 /t/ 和 /d/ 结尾的原型后面读作 /ɪd/。 padded patted
-b. 在以浊音（包括元音）结尾的原形后面读作 /d/。buzzed towed called
-c. 除 /t/ 外，在以清音结尾的原形后面读作 /t/。passed packed
-d. 以 辅音 + -y 结尾的原形， 把 -y 变成 -i，后加 ed: try ~ tried，carry ~ carried。
-
-*** 现在分词和过去分词之前辅音字母的双拼：
-如果动词原形以单个辅音字母结尾，之前只有一个发元音的字母并且重读，那么它的现在分词和过去分词形式中要加双拼。
-bar~barring~barred beg~begging~begged permit~permitting~permitted patrol~patrolling~patrolled
-
-*** c+k
-在以元音+c 结尾的动词原形中，其现在分词和过去分词形式要加 k。如 panic~panicking~panicked   traffic~trafficking~traficked。
-
-*** 删去 -e 和增加 -e
-
-如果原形以不发音的 -e 结尾，他的过去和现在分词形式，总是先删去 -e。 create~creating~created type~typing~typed
-其他不规则情况省略。
 
 ** 有助动词功能的动词
 
