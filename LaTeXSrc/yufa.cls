@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{dingjia}[2018/12/08 dingjia book class]
+\ProvidesClass{yufa}[2024/08/05 yufa book class]
 % \RequirePackage[l2tabu, orthodox]{nag} %编译时，给出过时命令和不规范使用警告。
 
 \RequirePackage{kvoptions}
