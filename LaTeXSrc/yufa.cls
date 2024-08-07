@@ -523,3 +523,17 @@ item-indent=14pt, label-offset=0pt, column-sep=5pt]{taskitem}[*]
 \def\reitem{\refstepcounter{enumi}\item[\Rightarrow]}
 
 \newcommand\doulos[1]{{ \fontspec{Doulos SIL} #1}}
+
+% 设定新环境sdbig4，4个参数，第2和3个参数分为两行，被前后大括号包括。
+\newenvironment{sdbig4}[4]{%
+  \begin{equation*}
+    \text{#1} \left\{
+      \begin{aligned}
+        & \text{#2}\\
+        & \text{#3}
+      \end{aligned}
+    \right\}
+    \text{#4}
+}{%
+  \end{equation*}
+}

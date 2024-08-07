@@ -511,19 +511,18 @@ of结构可以与属格结合起来产生一种称为\textbf{后置属格（双�
 \section{代词}
 
 代词更多情况下不是简单“代替”名词，而是代替“名词性短语”。
-% Please add the following required packages to your document preamble:
 
-% \usepackage{tabularray}
-% \UseTblrLibrary{booktabs}
-% \UseTblrLibrary{nameref}
+\subsection{人称代词}
 
 \begin{table}[htbp]
   \centering \small
   \begin{talltblr}[ caption = {人称代词的主格、宾格、属格以及反身代词},
     label = {tab:whoself},
+    note{a} = {限定式属格：在名词短语中起限定作用，修饰其后的中心语。},
+    note{b} = {独立式属格：省略场景中已知要修饰的名词，独立使用。},
     ]{
       width=\linewidth, colspec={cccccccccc},
-      rowsep=2pt, colsep=4pt,
+      rowsep=1pt, colsep=2pt,
       row{1} = {font=\bfseries},
     }
     \toprule
@@ -532,14 +531,29 @@ of结构可以与属格结合起来产生一种称为\textbf{后置属格（双�
     宾格 & me & him & her & & us & them & & who(m) \\
     反身代词 & myself & himself & herself & itself & ourselves & themselves
     & {yourself \\ yourselves} & -- \\ \midrule
-    \textbf{属格} \\
+   \SetCell[c=3]{m} \textbf{属格（物主代词）} &&&&&&&&&\\
     限定式 & my & \SetCell[r=2]{m} his & her & \SetCell[r=2]{m} its & our & their & your &  \SetCell[r=2]{m} whose \\
     独立式 & mine & & hers & & ours & theirs & yours & \\
     \bottomrule
   \end{talltblr}%
 \end{table}
 
+宾语位置如是人称代词，则使用人称代词宾格，这个大家一般都了解。但\textbf{关于主语补
+  语，在正式文体中使用主格，非正式文体中使用宾格且越来越流行。}
 
+\begin{enumerate}
+\item \unct{It}{S} \unct{was}{V} \unct{he}{C}.
+
+  非正式文体中，不用he，而用him。
+
+
+\item  \unct{It}{S}\unct{’s}{V} \unct{I}{C} who’s to blame.
+
+  我负有(不好的)责任。非正式文体中，变 I为me.
+\end{enumerate}
+
+\begin{sdbig4}{He is}{more intelligent than}{as intelligent as}{she (is).}
+\end{sdbig4}
 %%% Local Variables:
 %%% mode: latex
 %%% TeX-master: "main"
