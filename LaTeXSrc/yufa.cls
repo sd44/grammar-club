@@ -263,11 +263,11 @@ footnoteleadingratio = 1.6]{zhlineskip}
 % \setlist[description]{style=nextline, font=\sffamily\bfseries}
 \setlist[description]{font=\sffamily\bfseries}
 
-\setlist[itemize]{leftmargin= 0ex, itemindent = \ccwd, listparindent =
-  1.1\parindent, labelindent=0.5em, labelwidth=1.6em, parsep = 0ex, itemsep =
+\setlist[itemize]{leftmargin= 0ex, itemindent = 1.5\ccwd, listparindent =
+  1.1\parindent, labelindent=0.8em, labelwidth=1.6em, parsep = 0ex, itemsep =
   0.5em, align=right, ref=例\arabic* }
 
-% \setlist[2]{itemindent=0pt} % Only the level 2
+\setlist[2]{itemindent=\ccwd} % Only the level 2
 
 \RequirePackage{tikz, pgfplots}
 \tikzset{every picture/.style={/utils/exec={\footnotesize}}}
