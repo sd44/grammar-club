@@ -436,8 +436,8 @@ footnoteleadingratio = 1.6]{zhlineskip}
 % \def\authornick#1{\gdef\@authornick{#1}}
 % \def\@authornick{\@latex@warning{No \noexpand\authornick given}}
 
-\def\authorurl#1{\gdef\@authorurl{\url{#1}}}
-\def\@authorurl{\@latex@warning{No \noexpand\authorurl given}}
+% \def\authorurl#1{\gdef\@authorurl{\url{#1}}}
+% \def\@authorurl{\@latex@warning{No \noexpand\authorurl given}}
 
 
 \def\maketitle{%
@@ -451,17 +451,18 @@ footnoteleadingratio = 1.6]{zhlineskip}
   % {\huge \bfseries \itshape \@subtitle}\\[3\baselineskip]
 
   \vspace*{0.8\drop}
-  \begin{table}[!h]
+  {
     \centering
     \Large
-    \begin{tabular}{cc}
+    \begin{tblr}{colspec={cc}}
       作\qquad 者： &  \@author \\
-      简中转录： &  llwslc \\
       % 昵\quad 称： & \@authornick \\
-      网\qquad 站： & \@authorurl \\
       日\qquad 期： & \@date \\
-  \end{tabular}
-\end{table}
+    \end{tblr}
+
+  \vspace*{0.1\drop}
+   \url{https://github.com/sd44/grammar-club}
+  }
 \vspace*{0.5\drop}
 
 \endgroup
