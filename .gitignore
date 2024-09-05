@@ -1,5 +1,7 @@
 main.pdf
 _region_.tex
+*.ilg
+*.ind
 *.nav
 *.snm
 *.idx
