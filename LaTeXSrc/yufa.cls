@@ -303,7 +303,7 @@ footnoteleadingratio = 1.6]{zhlineskip}
 
 
 \RequirePackage{xargs}
-\RequirePackage[colorinlistoftodos,prependcaption,textsize=small , disable]{todonotes}
+\RequirePackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
 \newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
 \newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
