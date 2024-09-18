@@ -389,6 +389,7 @@ footnoteleadingratio = 1.6]{zhlineskip}
 \crefformat{chapter}{#2第~#1~章#3}
 \crefformat{section}{#2~#1~节#3}
 \crefformat{subsection}{#2~#1~节#3}
+\crefformat{sub}{#2~#1~节#3}
 \crefformat{appendix}{#2附录~#1~#3}
 \crefformat{enumi}{#2第~#1~点#3}
 \crefformat{footnote}{#2脚注~#1~#3}
