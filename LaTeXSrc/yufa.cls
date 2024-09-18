@@ -22,8 +22,7 @@
   section = {beforeskip = {3ex plus 1ex minus 0.2ex}, afterskip = {2.3ex
       plus 0.2ex}},
   subsection = {beforeskip = {3ex plus 1ex minus 0.2ex},
-    afterskip = {1.5ex plus 0.2ex}, name={,、},
-    number=\chinese{subsection},aftername={\,}, indent=0pt},
+    afterskip = {1.5ex plus 0.2ex}},
   subsubsection = {beforeskip = {1ex plus
       1ex minus 0.2ex}, afterskip = {0.5ex plus 0.2ex}},
   paragraph = {beforeskip = {1ex plus 1ex minus 0.2ex}, afterskip = {0.2ex plus 0.1ex
