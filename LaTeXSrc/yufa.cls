@@ -49,8 +49,8 @@
 footnoteleadingratio = 1.6]{zhlineskip}
 
 \usepackage{imakeidx}
-\indexsetup{level=\chapter*, toclevel=section, othercode=\small}
 \makeindex[title=索引, columns=2, intoc, columnseprule=true]
+\indexsetup{level=\chapter*, toclevel=section, othercode=\small}
 
 \RequirePackage{amsmath, % amssymb,
   xfrac}
@@ -269,7 +269,7 @@ footnoteleadingratio = 1.6]{zhlineskip}
   1.1\parindent, labelindent=0.8em, labelwidth=1.6em, parsep = 0ex, itemsep =
   0.5em, align=right, ref=例\arabic* }
 
-\setlist[2]{itemindent=\ccwd} % Only the level 2
+\setlist[2]{leftmargin=\ccwd} % Only the level 2
 
 \RequirePackage{tikz, pgfplots}
 \tikzset{every picture/.style={/utils/exec={\footnotesize}}}

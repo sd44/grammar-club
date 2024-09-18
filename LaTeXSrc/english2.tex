@@ -8,8 +8,7 @@
 \begin{description}
 \item[定语 (Attributive)] \index{概念!前置修饰@前置修
     饰 premodification} \index{概念!定语@定语 attributive}置于限定词（包括零冠
-  词）和名词代词之间，修饰名词或代词的成分，前置修饰作用（另可见
-  \cref{subsec:nounimal}）。
+  词）和名词代词之间，修饰名词或代词的成分，前置修饰作用（另可见 \cref{subsec:nounimal}）。
   \begin{description}
     \item[形容词作定语] 如“a small table”（一张小桌子），其中“small”是前置修饰语。
     \item[代词作定语] 如“this book”（这本书），其中“this”是前置修饰语。
@@ -262,14 +261,8 @@ wide作副词用时表示“宽地”， widely 表示距离很远，或差别�
 \end{itemize}
 
 
-\textbf{有些形容词的比较级和最高级形式用作副词}的现象,在规范英语中也很常见。试比较:
-\begin{itemize}
-\item Speak \unbf{clearer}! [\unbf{more clearly}]
-\item This newsreader speaks \unbf{clearest} of all. [\unbf{most clearly}]
-\item It's \unbf{easier} said than done. [\unbf{more easily}]
-\item Ami ran \unbf{(the) slowest}.
-\item The car ran went (the) \unbf{slower and slower}.
-\end{itemize}
+\textbf{有些形容词的比较级和最高级形式用作副词}的现象,在规范英语中也很常见
+（见\cref{sec:themost}）。
 
 以下表示时间的 -ly词作形容词、副词皆可： monthly, daily, hourly, nightly,
 quarterly, weekly, yearly。
@@ -483,7 +476,7 @@ where, when和用的较少的why还可以\textbf{引导关系分句（形容词�
       \right\} $ she was there.
 \end{itemize}
 
-where, when, why和how都可以\textbf{引导名词性分句}：
+where, when, why和how都可以\textbf{引导名词性关系分句（自由关系分句）}：
 \begin{itemize}
 \item I know
     $\left\{
@@ -521,6 +514,80 @@ where, when, why和how都可以\textbf{引导名词性分句}：
 这四个以 wh- 开头的词也可用作疑问代用式，其中，where = at what place, when =
 at what time, why = for what reason, how = in what way。最为常用不再给出例
 句。
+
+\subsection{副词作介词补足语}
+\label{subsec:adverbprep}
+
+许多表示时间和地点的副词能用作介词补足语。
+
+最常用的地点副词作介词补足语的是here, there:
+\begin{itemize}
+\item Come \unbf{over here}.
+\item How do we get \unbf{out of here}.
+\end{itemize}
+home（也可以看作是名词）可以作at, (away) from, close to, near, toward(s)的补
+足语；其他地点副词只能和介词from连用：
+\begin{itemize}
+\item You've got a letter \unbf{from abroad}.
+\end{itemize}
+
+最常用作介词补足语的时间副词见\cref{fig:preptimeadv}
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{preptimeadverb.png}
+  \caption{\label{fig:preptimeadv}最常用作介词补足语的时间副词}
+\end{figure}
+
+
+% #+BEGIN_SRC dot :file preptimeadverb.png :cmdline -Kdot -Tpng :exports results
+%   digraph {
+%     fontsize=11
+%     fontname="serif bold"
+%     rankdir="TB"
+%     ranksep=0.8
+%     node[shape=box fontsize=10]
+
+%     subgraph  cluster_prep {
+%       bgcolor="lightgreen"
+%     rankdir="LR"
+%       label=介词
+%       node [shape=ellipse]
+%       since
+%       "B1_invis" [shape=none Xstyle=invis label="" fixedsize=true  width=0.4 height=.02]
+%       till[label="till\nuntil"]
+%       "B3_invis" [shape=none Xstyle=invis label="" fixedsize=true  width=0.4 height=.02]
+%       afterl[label="after\nby\nfrom"]
+%       "B2_invis" [shape=none Xstyle=invis label="" fixedsize=true  width=0.4 height=.02]
+%       for
+%       "B4_invis" [shape=none Xstyle=invis label="" fixedsize=true  width=0.4 height=.02]
+%       before
+%     }
+
+%     subgraph cluster_adv {
+%       bgcolor="lightyellow"
+%     // rankdir="LR"
+%     labelloc="b"
+%       label=时间副词
+%       lately[label="lately\nrecently"]
+%       then[label="then\ntoday\nyesterday"]
+%       now[label="now\ntomorrow\ntonight"]
+%       afterr[label="after(wards)\nlater"]
+%       soon
+%       ever[label="ever\nonce"]
+%       long
+%     }
+
+
+%     splines=false
+
+%     since -> {lately, then}[color = "purple"]
+%     till -> {lately,then,now,afterr,soon} [style=dashed color="red"]
+%     afterl -> {then, now}[style=bold color="yellow"]
+%     for -> {then, now, afterr, ever, long}[style=solid color="blue"]
+%     before -> {then, now, long}[style=bold]
+%   }
+% #+END_SRC
+
 
 \subsection{副词小品词up, down, back, away等}
 
@@ -1484,7 +1551,7 @@ SVC, SVA 两种句型中，其中V为系动词且无实际意义，因此可以\
     label = {tab:speech},
     ]{
       width=\linewidth, colspec={cc},
-      rowsep=2pt, colsep=4pt,
+      rowsep=2pt, colsep=10pt,
       row{1} = {c, font=\bfseries},
     }
     \toprule
@@ -1529,7 +1596,7 @@ SVC, SVA 两种句型中，其中V为系动词且无实际意义，因此可以\
     note{a} = {间接祈使句不带主语}
     ]{
       width=\linewidth, colspec={cc},
-      rowsep=2pt, colsep=4pt,
+      rowsep=2pt, colsep=12pt,
       row{1} = {c, font=\bfseries},
     }
     句子类型 & 从属连接词 \\ \midrule
