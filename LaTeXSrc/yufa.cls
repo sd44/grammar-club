@@ -50,7 +50,7 @@ footnoteleadingratio = 1.6]{zhlineskip}
 
 \usepackage{imakeidx}
 \makeindex[title=索引, columns=2, intoc, columnseprule=true]
-\indexsetup{level=\chapter*, toclevel=section, othercode=\small}
+\indexsetup{level=\chapter*, toclevel=chapter, othercode=\small}
 
 \RequirePackage{amsmath, % amssymb,
   xfrac}
