@@ -465,6 +465,8 @@ footnoteleadingratio = 1.6]{zhlineskip}
 
   \vspace*{0.1\drop}
    \url{https://github.com/sd44/grammar-club}
+  \vspace*{0.2\drop}
+  \kaishu{仅以此笔记献给我的孩子子墨和子韩}
   }
 \vspace*{0.5\drop}
 
