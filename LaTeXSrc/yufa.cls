@@ -49,8 +49,8 @@
 footnoteleadingratio = 1.6]{zhlineskip}
 
 \usepackage{imakeidx}
+\indexsetup{level=\chapter*, toclevel=chapter, othercode=\footnotesize}
 \makeindex[title=索引, columns=2, intoc, columnseprule=true]
-\indexsetup{level=\chapter*, toclevel=chapter, othercode=\small}
 
 \RequirePackage{amsmath, % amssymb,
   xfrac}
@@ -78,8 +78,8 @@ footnoteleadingratio = 1.6]{zhlineskip}
   bookmarksnumbered = true,
   bookmarksdepth = section,
   bookmarksopen = true,
-  pdftitle = {英语魔法师之语法俱乐部},
-  pdfauthor = {施元佑},
+  pdftitle = {以夸克和旋元佑为蓝本的英语学习笔记},
+  pdfauthor = {蛋疼的蛋蛋},
   pdfcreator = {sd44sd44@yeah.net},
 }
 
@@ -174,7 +174,6 @@ footnoteleadingratio = 1.6]{zhlineskip}
 \RequirePackage[usestackEOL]{stackengine}
 \RequirePackage{multirow, diagbox}
 
-\RequirePackage{bookmark}
 \RequirePackage{booktabs}
 % \RequirePackage{lscape}
 \RequirePackage{float}
