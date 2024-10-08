@@ -5,13 +5,6 @@
 
 \begin{itemize}
 
-\item 可用介词短语替换的关系副词
-  \begin{description}
-  \item[where] prep + which + [place]
-  \item[when] prep + which + [time]
-  \item[why] prep + which + [reason]
-  \item[how] prep + which + [manner/way]
-  \end{description}
 \item 英语中有三种“\textbf{横线}”：
   \begin{description}
   \item[hyphen -] 连字符，用来组成复合词，如mother-in-law ；或者连接因换行被
@@ -27,7 +20,30 @@
 
 
 \section{形容词性关系从句}
+% Please add the following required packages to your document preamble:
 
+% \usepackage{tabularray}
+% \UseTblrLibrary{booktabs}
+% \UseTblrLibrary{nameref}
+
+\begin{table}[htbp!]
+  \centering
+  \begin{talltblr}[ caption = {关系代词},
+    label = {tab:relativePro},
+    ]{
+      width=\linewidth, colspec={lllll},
+      rowsep=2pt, colsep=4pt,
+      row{1} = {c, font=\bfseries},
+    }
+    \toprule
+    格 & \SetCell[c=2]{c} 限制性 & & \SetCell[c=2]{c} 非限制性 & \\ \midrule
+    & 人称 & 非人称 & 人称 & 非人称 \\ \midrule
+    主格 & {who\\that} & {which\\that} & who & \SetCell[r=2]{c} Which \\
+    宾格 & {whom\\that\\zero} & {which\\that\\zero} & whom & \SetCell[r=2]{c} Which \\
+    属格 & \SetCell[c=4]{c} whose \\
+    \bottomrule
+  \end{talltblr}%
+\end{table}
 \begin{itemize}
 \item The book \unbf{which} you ordered last month has arrived.
 
