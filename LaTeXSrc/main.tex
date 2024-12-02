@@ -1,0 +1,52 @@
+\documentclass{yufa}
+
+\title{以夸克和旋元佑为蓝本的英语笔记}
+\author{蛋疼的蛋蛋}
+\date{2024年10月}
+
+\begin{document}
+
+\special{pdf:minorversion 7}
+
+\frontmatter
+\maketitle
+
+%% 目录
+\tableofcontents
+
+%% 插图索引
+\listoffigures
+\cleardoublepage
+\listoftables
+\cleardoublepage
+
+\phantomsection
+\todototoc
+\listoftodos[TODO列表]
+
+\input{preface.tex}
+
+%%% 正文部分
+\mainmatter
+
+\input{grammar1.tex}
+\input{grammar2.tex}
+% \input{grammar3.tex}
+
+% \input{english4.tex}
+
+\appendix
+
+\input{append.tex}
+
+\backmatter
+
+\phantomsection
+\printindex
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:
